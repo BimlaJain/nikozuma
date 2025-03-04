@@ -1,38 +1,35 @@
-"use client"
-import React, { useState } from 'react';
-import { HEADER_LIST } from '@/utils/helper';
+"use client";
+import React from "react";
+
+import Image from "next/image";
+import { HEADER_LIST } from "@/utils/helper";
 
 const Header = () => {
-    const [menuOpen, setMenuOpen] = useState(false);
-
     return (
-        <nav className="navbar pt-0  flex-direction ">
-            <a className="logo " href="#">
-                <img src="/assets/images/png/logo.png" alt="logo" />
-            </a>
-            <button
-                className="navbar-toggler position-absolute end-0 me-3 border-0 bg-transparent"
-                type="button"
-                onClick={() => setMenuOpen(!menuOpen)}
-            >
-                <span className="text-white fs-2">{menuOpen ? '✖' : '☰'}</span>
-            </button>
-            {menuOpen && (
-                <div className="container d-flex justify-content-end pt-90">
-                    <div className="d-flex justify-space-between px-4 py-2" id="navbarNav">
-                        <ul className="navbar-nav">
-                            {HEADER_LIST.map((link, index) => (
-                                <li className="nav-item" key={index}>
-                                    <a className="nav-link text-white" href={link.href}>
-                                        {link.name}
-                                    </a>
-                                </li>
-                            ))}
-                        </ul>
+        <div className=" nav-pt position-relative max-w-1140 mx-auto">
+            <Image className="position-absolute logo-image" src="/assets/images/webp/header-image.webp" alt="logo-image" width={540} height={93} />
+            <div className="d-flex justify-content-between max-w-880 mx-auto px-3">
+                <div className="d-flex align-items-center">
+                    <div
+                        className="text-white nav-logo position-relative z-10"
+                    >
+                        NEKOZUMA
                     </div>
                 </div>
-            )}
-        </nav>
+                <ul className="ms-auto d-flex align-items-center justify-content-center links-gap mb-0 position-relative z-10">
+                    {HEADER_LIST.map((item, index) => (
+                        <li key={index} className="nav-text ">
+                            <a className="text-white text-decoration-none" href={item.link}>{item.label}</a>
+                        </li>
+                    ))}
+                </ul>
+                <div className="d-flex icons-ml icons-gap  position-relative z-10">
+                    <a className="icons" href="https://discord.com/channels"> <Image src="/assets/images/svg/discord.svg" alt="discord" width={32} height={32} /></a>
+                    <a className="icons" href="https://x.com/?lang=en"> <Image src="/assets/images/svg/footer-twitter.svg" alt="twitter" width={32} height={32} /></a>
+                </div>
+            </div>
+        </div>
+
     );
 };
 
