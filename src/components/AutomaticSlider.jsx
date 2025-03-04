@@ -6,7 +6,7 @@ import { SLIDER_LEFT_IMAGES, SLIDER_RIGHT_IMAGES } from "@/utils/helper";
 
 const Slider = () => {
     return (
-        <div className="overflow-hidden max-w-1920 mx-auto">
+        <div id="overview" className="overflow-hidden max-w-1920 mx-auto">
             <div className="d-flex slider-left">
                 {SLIDER_LEFT_IMAGES.map((src, index) => (
                     <Image key={index} className="slider-image" src={src} alt={`slider-left-${index}`} width={320} height={320} />

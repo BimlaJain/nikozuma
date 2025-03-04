@@ -19,7 +19,7 @@ const Header = () => {
                 <ul className="ms-auto d-flex align-items-center justify-content-center links-gap mb-0 position-relative z-10">
                     {HEADER_LIST.map((item, index) => (
                         <li key={index} className="nav-text ">
-                            <a className="text-white text-decoration-none" href={item.link}>{item.label}</a>
+                            <a className="menulist text-decoration-none" href={item.link}>{item.label}</a>
                         </li>
                     ))}
                 </ul>
