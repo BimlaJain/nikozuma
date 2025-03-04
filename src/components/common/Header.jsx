@@ -6,7 +6,7 @@ import { HEADER_LIST } from "@/utils/helper";
 
 const Header = () => {
     return (
-        <div className=" nav-pt position-relative max-w-1140 mx-auto">
+        <div className=" nav-pt position-relative max-w-1920 mx-auto">
             <Image className="position-absolute logo-image" src="/assets/images/webp/header-image.webp" alt="logo-image" width={540} height={93} />
             <div className="d-flex justify-content-between max-w-880 mx-auto px-3">
                 <div className="d-flex align-items-center">
