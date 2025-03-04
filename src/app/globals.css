@@ -291,17 +291,6 @@ body {
 }
 
 @media(max-width:1020.99px) {
-  .team-image {
-    max-width: none;
-    height: 100%;
-    margin-bottom: 23px;
-    width: 100%;
-  }
-
-  .card-text {
-    max-width: none;
-  }
-
   /* hero */
   .hero-image-position {
     right: 0;
@@ -410,4 +399,11 @@ body {
   .hero-section {
     min-height: 630px;
   }
+.team-image {
+  max-width: 202px;
+  height: 202px;
+  margin-bottom: 23px;
+  width: 100%;
+}
+   
 }
