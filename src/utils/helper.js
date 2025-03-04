@@ -1,7 +1,7 @@
 export const HEADER_LIST = [
-    { label: "Overview", link: "#overview" },
-    { label: "Story", link: "#story" },
-    { label: "Team", link: "#team" }
+    { title: "Overview", link: "#overview" },
+    { title: "Story", link: "#story" },
+    { title: "Team", link: "#team" }
 ];
     
 export const SLIDER_LEFT_IMAGES = [

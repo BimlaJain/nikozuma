@@ -8,13 +8,13 @@ const Slider = () => {
     return (
         <div id="overview" className="overflow-hidden max-w-1920 mx-auto">
             <div className="d-flex slider-left">
-                {SLIDER_LEFT_IMAGES.map((src, index) => (
-                    <Image key={index} className="slider-image" src={src} alt={`slider-left-${index}`} width={320} height={320} />
+                {SLIDER_LEFT_IMAGES.map((obj, index) => (
+                    <Image key={index} className="slider-image" src={obj} alt={`slider-left-${index}`} width={320} height={320} />
                 ))}
             </div>
             <div className="d-flex slider-right">
-                {SLIDER_RIGHT_IMAGES.map((src, index) => (
-                    <Image key={index} className="slider-image" src={src} alt={`slider-right-${index}`} width={320} height={320} />
+                {SLIDER_RIGHT_IMAGES.map((obj, index) => (
+                    <Image key={index} className="slider-image" src={obj} alt={`slider-right-${index}`} width={320} height={320} />
                 ))}
             </div>
         </div>
