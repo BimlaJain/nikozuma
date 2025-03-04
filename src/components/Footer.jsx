@@ -8,8 +8,8 @@ const Footer = () => {
             <div className="container">
                 <h2 className='footer-heading text-center pb-4'>NEKOZUMA</h2>
                 <div className="d-flex align-items-center justify-content-center gap-4">
-                    <a href="https://discord.com/channels"> <Image src="/assets/images/svg/discord.svg" alt="discord" width={32} height={32} /></a>
-                    <a href="https://x.com/?lang=en"> <Image src="/assets/images/svg/footer-twitter.svg" alt="twitter" width={32} height={32} /></a>
+                    <a className='icons' href="https://discord.com/channels"> <Image src="/assets/images/svg/discord.svg" alt="discord" width={32} height={32} /></a>
+                    <a className='icons' href="https://x.com/?lang=en"> <Image src="/assets/images/svg/footer-twitter.svg" alt="twitter" width={32} height={32} /></a>
                 </div>
             </div>
         </div>
