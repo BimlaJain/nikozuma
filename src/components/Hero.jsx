@@ -5,7 +5,8 @@ import Header from "./common/Header";
 
 const Hero = () => {
     return (
-        <section className="hero-section text-white d-flex align-items-lg-center  overflow-hidden position-relative ">
+        <div className="hero-section">
+        <div className="hero-section text-white d-flex align-items-lg-center  overflow-hidden position-relative mx-auto max-w-1920">
             {/* <Header/> */}
             <div className="row align-items-lg-center ms-auto py-5 mx-auto max-w-1140">
                     <div className="col-lg-6 text-center text-lg-start px-0">
@@ -38,7 +39,8 @@ const Hero = () => {
             <div className="position-absolute light-position">
                 <Image src="/assets/images/png/left-light.png" alt="left-light" width={355} height={511} />
             </div>
-        </section>
+            </div>
+        </div>
     );
 };
 

@@ -17,6 +17,9 @@
   min-height: 100vh;
 }
 
+.max-w-1920{
+  max-width: 1920px;
+}
 .text-primary {
   color: #3586FF !important;
 
