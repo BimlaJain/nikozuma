@@ -96,8 +96,10 @@ body {
 }
 
 .btn-primary {
-  background-color: #2672ff;
-  border: none;
+  background-color: #245AAB !important;
+  border: none !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
 }
 
 .btn-primary:hover {
