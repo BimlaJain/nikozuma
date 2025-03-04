@@ -3,21 +3,17 @@
 body {
   background-color: #1C2430 !important;
   font-family: "Sarabun", sans-serif !important;
+
 }
 
 @font-face {
-  font-family: "franklin";
+  font-family: franklin;
   src: url("/assets/fonts/FranklinGothic-Heavy.otf");
-}
-
-.frank-gothic {
-  font-family: "franklin", sans-serif;
-  
+  font-weight: 700 !important;
 }
 
 /* navbar */
 .nav-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 20.8px;
   text-decoration: none;
@@ -38,8 +34,7 @@ body {
 }
 
 .nav-logo {
-  font-family: 'Franklin Gothic Heavy', sans-serif;
-  font-weight: 400;
+  font-family: franklin;
   font-size: 21.64px;
   line-height: 24.54px;
   letter-spacing: 11%;
@@ -67,11 +62,11 @@ body {
   z-index: 10;
 }
 
-.menulist{
+.menulist {
   color: white;
 }
 
-.menulist:hover{
+.menulist:hover {
   color: #245AAB;
 }
 
@@ -135,8 +130,7 @@ body {
 
 /* story */
 .story-heading {
-  font-family: 'Franklin Gothic Heavy', sans-serif;
-  font-weight: 400;
+  font-family: franklin;
   font-size: 43px;
   line-height: 48.75px;
   color: #3586FF;
@@ -149,6 +143,7 @@ body {
   color: #D4E5FF;
   max-width: 888px;
 }
+
 .story-pera2 {
   font-size: 14px;
   font-weight: 400;
@@ -176,8 +171,7 @@ body {
 }
 
 .card-heading {
-  font-family: 'Franklin Gothic Heavy', sans-serif;
-  font-weight: 400;
+  font-family: Franklin;
   font-size: 24px;
   line-height: 27.21px;
   color: #3586FF;
@@ -204,8 +198,7 @@ body {
 }
 
 .footer-heading {
-  font-family: 'Franklin Gothic Heavy', sans-serif;
-  font-weight: 400;
+  font-family: Franklin;
   font-size: 21.64px;
   line-height: 24.54px;
   letter-spacing: 11%;
@@ -233,7 +226,7 @@ body {
   animation: scrollLeft 18s linear infinite;
 }
 
-.pb-28{
+.pb-28 {
   padding-bottom: 28px;
 }
 
@@ -241,7 +234,7 @@ body {
   padding-top: 61px;
 }
 
-.pt-56{
+.pt-56 {
   padding-top: 56px;
 }
 
