@@ -7,7 +7,7 @@ const Team = () => {
         <div id='team' className='pb-28 pt-61'>
             <div className="container">
                 <div className=" size-border mx-auto text-center"></div>
-                <h2 className='story-heading text-center frank-gothic pt-56'>Team</h2>
+                <h2 className='story-heading text-center frank-gothic team-spacing'>Team</h2>
                 <div className='d-flex flex-wrap gap-4 max-w-880 mx-auto align-items-center justify-content-center'>
                     {TEAM_MEMBERS.map((member, index) => (
                         <div key={index} className="text-center">

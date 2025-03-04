@@ -24,8 +24,8 @@ const Header = () => {
                     ))}
                 </ul>
                 <div className="d-flex icons-ml icons-gap  position-relative z-10">
-                    <a className="icons" href="https://discord.com/channels"> <Image src="/assets/images/svg/discord.svg" alt="discord" width={32} height={32} /></a>
-                    <a className="icons" href="https://x.com/?lang=en"> <Image src="/assets/images/svg/footer-twitter.svg" alt="twitter" width={32} height={32} /></a>
+                    <a className="icons" href="https://discord.com/channels"> <Image src="/assets/images/svg/discord.svg" alt="discord" width={24} height={24} /></a>
+                    <a className="icons" href="https://x.com/?lang=en"> <Image src="/assets/images/svg/footer-twitter.svg" alt="twitter" width={24} height={24} /></a>
                 </div>
             </div>
         </div>

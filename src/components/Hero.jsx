@@ -11,7 +11,7 @@ const Hero = () => {
                         <div className="container mx-auto max-w-1140">
                             <div className="text-primary size-border mr-auto text-center"></div>
                             <h1 className="fw-bold heading-font text-primary">NEKOZUMA</h1>
-                            <p className="text-light ">
+                            <p className="text-light custom-description">
                                 The collection of 5555 NFTs on the Solana blockchain. The collection
                                 serves to be a rising force against the anime meta of collections
                                 with undoxxed teams and is therefore backed by the team at
